@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="game-info">
+      <h3>Hangman</h3>
+      <h3 class="word-from">Word From: <span></span></h3>
+    </div>
+    <div class="game-container">
+      <div class="container">
+        <div class="row">
+          <!--hangman drawing-->
+          <div class="hangman-draw">
+            <div class="the-draw">
+              <div class="support-bars">
+                <span class="base"></span>
+                <span class="support"></span>
+                <span class="stand"></span>
+                <span class="rope-stand"></span>
+                <span class="rope"></span>
+              </div>
+              <div class="the-man">
+                <span class="head"></span>
+                <span class="body"></span>
+                <span class="hands"></span>
+                <span class="legs"></span>
+              </div>
+            </div>
+          </div>
+          <!--letters-->
+          <div class="letters-container">
+            <div class="letters">
+              <!--with js-->
+            </div>
+          </div>
+        </div>
+        <!--letter to guess-->
+        <div class="letter-guess">
+
+        </div>
+      </div>
+    </div>
+    <div class="game-finish">
+      <div class="box">
+        <h1>Game Over</h1>
+        <h2>The Word Is : <span></span></h2>
+        <p>Refresh The Page For Onother Try.</p>
+      </div>
+    </div>
+    <div class="game-win">
+
+    </div>
+    <!--<img src="https://media.giphy.com/media/2gtoSIzdrSMFO/giphy.gif" alt="">-->
+    <script src="app.js"></script>
+  </body>
+</html>
